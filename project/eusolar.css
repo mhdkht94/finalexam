@@ -1,0 +1,102 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1563630381190-77c336ea545a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHw%3D&w=1000&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title1, #title2 {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.link{
+    background-color: #804800;
+    padding: 30px;
+}
+.link li{
+    font-size: 30px;
+    margin: 30px;
+    display: inline;
+}
+
+a:link {
+    /*"a" represents the link*/
+    color:	#ffffff;
+    display: inline-block;
+}
+
+a:visited {
+    /*a visited link*/
+    color: #a36b32;
+    display: inline-block;
+}
+
+.product{
+    padding: 5px;
+}
+.product li{
+    font-size: 20px;
+    display: inline;
+    margin-right: 200px;
+}
+
+h3 {
+    text-align: left;
+    font-size: x-large;
+}
+
+table {
+    border: 2px solid #000000;
+    width: 1000px;
+    height: 700px;
+}
+
+th, td {
+    border: 2px solid #000000;
+}
+
+.yellow {
+    background-color: #FFFF00;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.aside {
+    float: right;
+    width: 200px;
+    margin: 100px;
+    font-size: medium;
+    
+}
+
+#picture1, #picture2, #picture3 {
+    margin: 20px;
+    text-align: center;
+}
+
+#cookie {
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    text-align: center;
+    font-style: italic;
+    color: #ffffff;
+    background-color: #fdc082;
+    position: fixed;
+    border: #000000;
+    border-width: 2px;
+    border-style: double groove;
+    bottom: 0px;
+    right: 0;
+}
+
+.copyright {
+    position: static;
+    text-align: center;
+    font-style: italic;
+}

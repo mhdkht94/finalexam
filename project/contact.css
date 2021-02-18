@@ -1,0 +1,102 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1563630381190-77c336ea545a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHw%3D&w=1000&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title1, #title2 {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.link{
+    background-color: #804800;
+    padding: 30px;
+}
+.link li{
+    font-size: 30px;
+    margin: 30px;
+    display: inline;
+}
+
+a:link {
+    /*"a" represents the link*/
+    color:	#ffffff;
+    display: inline-block;
+}
+
+a:visited {
+    /*a visited link*/
+    color: #a36b32;
+    display: inline-block;
+}
+
+fieldset {
+    width: 800px;
+    height: 500px;
+    color:rgb(95, 61, 48);
+}
+
+label {
+    padding: 8px;
+}
+
+.aside {
+    float: right;
+    width: 200px;
+    margin-right: 200px;
+    font-size: medium;
+}
+
+p, h3 {
+    font-size: medium;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1em;
+
+}
+
+textarea {
+    border-color: coral;
+    width: 600px;
+    height: 250px;
+    font-family: "Notable";
+}
+
+#subbut {
+    border-color: coral;
+    color: black;
+    background-color: orange;
+    height: 30px;
+    width: 100px;
+}
+
+#fname, #mail {
+    height: 30px;
+    width: 200px;
+}
+
+#cookie {
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    text-align: center;
+    font-style: italic;
+    color: #ffffff;
+    background-color: #fdc082;
+    position: fixed;
+    border: #000000;
+    border-style: double groove;
+    border-width: 2px;
+    bottom: 0px;
+    right: 0;
+}
+
+.copyright {
+    position: static;
+    text-align: center;
+    font-style: italic;
+}
